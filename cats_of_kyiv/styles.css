@@ -1,0 +1,95 @@
+.ctr{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+body{
+   background-color: #Eb9486; 
+   color: #272838;
+   font-family: "IM Fell English", serif;
+   font-size: 20px;
+}
+a:link {
+  color: #272838;
+  text-decoration: none;
+}
+a:hover{
+  color: #272838; 
+}
+a:active {
+  color: #272838;
+}
+a:visited {
+  color: #272838;
+}
+
+h1 {
+  font-family: "Rubik Vinyl", serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  font-size: 50px;
+}
+h1:hover {
+   text-shadow: 2px 2px #7e7f9a;
+}
+i:hover {
+   text-shadow: 2px 2px #7e7f9a;
+}
+
+.left {
+  float: right;
+  width: 50%;
+}
+.right {
+  width: 50%;
+  float: right;
+ 
+}
+
+@media screen and (max-width: 800px) {
+  .left, .right {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+.content {
+  background-color: #F9f8f8;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #f3de8a ;
+  overflow: hidden;
+}
+.content h2 {
+  text-align: center;
+}
+
+.content:hover {
+   box-shadow: 10px 10px rgba(0,0,0,0.24);
+   transform: scale(1.05, 1.05);
+}
+
+#fixedstuff {
+position:fixed;
+}
+
+img {
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.ulist {
+  float: left;
+  position: relative
+}
+
+.pickle {
+  border-radius: 500px
+}
